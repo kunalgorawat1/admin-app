@@ -1,0 +1,35 @@
+.form {
+    background-color: var(--bgSoft);
+    padding: 50px;
+    border-radius: 10px;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    
+}
+
+.form input {
+    width: 100%;
+    padding: 30px;
+    border: 2px solid #2e374a;
+    border-radius: 5px;
+    background-color: var(--bg);
+    color: var(--text);
+    font-size: large;
+    box-shadow: 0 14px 28px rgb(76, 112, 119);
+}
+
+.form button {
+    padding: 30px;
+    background: linear-gradient(to bottom, #3498db, #2c3e50);;
+    color: var(--text);
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-size: large;
+    box-shadow: 0 14px 28px rgb(76, 112, 119);
+}
